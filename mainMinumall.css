@@ -1,0 +1,314 @@
+@media screen and (max-width:768px) and (min-width:300px) {
+    .navList{
+        display: none;
+    }
+    header{
+        justify-content: space-evenly;
+    }
+    .btnContiner{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .nav{
+        width: 45%;
+    }
+    .menu{
+        display: flex;
+    }
+
+    .GoToActive{
+        top: calc(50% - 40px);
+    }
+    .reservation{
+        font-size: 10px;
+        height: 25px;
+    }
+
+
+
+    /* section1 */
+
+
+    .section1{
+        justify-content: center;
+    }
+    .bergerDescription{
+        width: 70%;
+        height: 35%;
+    }
+
+    .h>h1{
+        font-size: 22px;
+    }
+    .bergerDescription>p{
+        font-size: 13px;
+    }
+
+    .imgs{
+        width: 40%;
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+
+    .book{
+        height: 45px;
+        width: 120px;
+    }
+
+
+    /* section3 */
+
+    .section3{
+        flex-direction: column-reverse;
+
+    }
+    .productSale{
+        width: 90%;
+    }
+    .productSaleImg{
+        height: 45%;
+        width: 50%;
+    }
+
+
+
+    /* section4 */
+
+    .section4{
+        height: 100vh;
+    }
+
+    .products{
+        height: 75%;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .product{
+        width: 35%;
+        height: 35%;
+        margin-top: 0;
+    }
+
+    .foodsBtn {
+        width: 90%;
+        justify-content: space-evenly;
+    }
+
+
+    /* section5 */
+
+    .section5Continer {
+        height: 100%;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .s5Description{
+        width: 95%;
+        height: 100%;
+        margin-bottom: -20px;
+    }
+
+    .infoTitle{
+        display: none;
+    }
+    .contactInfo>div>p{
+        font-size: 10px;
+    }
+
+    .section5Img {
+        width: 45%;
+        height: 25%;
+    }
+    .s6Description {
+        width: 90%;
+    }
+    /* section6 */
+
+    .section6{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .s6Description>p{
+        font-size: 15px;
+    }
+
+    /* section7 */
+
+    .continer7{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .passta {
+        height: 25%;
+        width: 100%;
+    }
+    .s7Continer {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .BZ{
+        height: 67%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .tastyPizza {
+        height: 30%;
+        width: 100%;
+    }
+    .usaBurger, .normalPizza{
+        width: 100%;
+        height: 47%;
+    }
+
+
+        /* footer */
+
+
+    .footer{
+        height: 75%;
+        background-image: none;
+        
+    }
+    .infoContiner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactInfo , #bookAtable{
+        width: 100%;
+    }
+    .open{
+        display: none;   
+    }
+
+    .delivry{
+        background: url(./images/delivery-banner-bg.png);
+        background-position: center;
+        height: 15%;
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    
+
+    /* section2 */
+
+
+    .section2{
+        height: 50vh;
+    }
+    .productContiner {
+        height: 70%;
+        width: 35%;
+
+        h3{
+            font-size: 10px;
+        }
+        p{
+            font-size: 6px;
+        }
+    }
+    .productImg{
+        width: 60px;
+        height: 60px;
+    }
+    .imgIcon{
+        height: 20px;
+        width: 20px;
+    }
+
+    .btnChang{
+        button{
+            height: 20px;
+            width: 20px;
+        }
+
+        i{
+            font-size: 15px;
+        }
+    }
+
+
+
+}
+
+@media screen and (max-width:400px){
+    /* section4 */
+
+    .foodsDescription{
+        height: 25%;
+
+        h3{
+            font-size: 15px;
+
+        }
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 10px;
+        }
+    }
+
+    .foodsBtn{
+        button{
+            font-size: 10px;
+        }
+    }
+
+    .products{
+        flex-direction: column;
+        height: 67%;
+        justify-content: space-evenly;
+    }
+
+    .product {
+        width: 35%;
+        height: 35%;
+
+        img{
+            top: 40%;
+            transform: translate(-50% , -40%);
+            height: 80px;
+            width: 80px;
+        }
+    }
+    .BTNsall {
+        width: 36px;
+        height: 15px;
+    }
+    .product>div>h5 {
+        font-size: 11px;
+    }
+
+    .iconsContact{
+        margin: 15px auto;
+    }
+
+    .iconsContact>i{
+        height: 20px;
+        width: 20px;
+        font-size: 10px;
+    }
+
+    #month, #person, #name, #email {
+        height: 25px !important;
+        width: 100px !important;
+        margin: 5px !important;
+    }
+    #bookAtable{
+        margin-top: 10px;
+    }
+
+    .fin>h3{
+        font-size: 8px;
+        font-family: monospace;
+        letter-spacing: 1px;
+    
+    }
+}
